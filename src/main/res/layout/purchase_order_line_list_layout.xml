@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:background="@color/white"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <TableLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+                  <TableRow android:layout_marginTop="3dp"
+                      android:layout_marginLeft="3dp"
+                      android:layout_marginRight="3dp">
+                      <TextView
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="Doc No.:"
+                          android:paddingLeft="3dp"
+                          android:fontFamily="@font/product_sans_bold"
+                          android:textColor="@color/colorPrimary"
+                          android:textSize="@dimen/normaltextsize"></TextView>
+                      <TextView
+                          android:id="@+id/tv_doc_num_po_line"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="3.0"
+                          android:text=":"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/black"
+                          android:textSize="@dimen/minnormaltextsize"></TextView>
+
+
+
+
+
+                  </TableRow>
+                  <TableRow android:layout_marginTop="4dp"
+                      android:layout_marginLeft="3dp"
+                      android:layout_marginRight="3dp">
+
+                      <TextView
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="Quantity:"
+                          android:paddingLeft="3dp"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/black"
+                          android:textSize="@dimen/normaltextsize"></TextView>
+                      <TextView
+                          android:id="@+id/tv_qty_po_line"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text=":"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/profileEditTextColor"
+                          android:textSize="@dimen/minnormaltextsize"></TextView>
+
+                      <TextView
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="Cost LCY:"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/black"
+                          android:textSize="@dimen/normaltextsize"></TextView>
+                      <TextView
+                          android:id="@+id/tv_cost_lcy_po_line"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text=":"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/profileEditTextColor"
+                          android:textSize="@dimen/minnormaltextsize"></TextView>
+
+                  </TableRow>
+                  <TableRow android:layout_marginTop="4dp"
+                      android:layout_marginLeft="3dp"
+                      android:layout_marginRight="3dp">
+
+                      <TextView
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="Type:"
+                          android:paddingLeft="3dp"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/black"
+                          android:textSize="@dimen/normaltextsize"></TextView>
+                      <TextView
+                          android:id="@+id/tv_type_po_line"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text=":"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/profileEditTextColor"
+                          android:textSize="@dimen/minnormaltextsize"></TextView>
+
+                      <TextView
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="Line No.:"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/black"
+                          android:textSize="@dimen/normaltextsize"></TextView>
+                      <TextView
+                          android:id="@+id/tv_line_num_po_line"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text=":"
+                          android:fontFamily="@font/product_sans_regular"
+                          android:textColor="@color/profileEditTextColor"
+                          android:textSize="@dimen/minnormaltextsize"></TextView>
+
+                  </TableRow>
+
+               <View
+                   android:layout_height="1dp"
+                   android:layout_width="match_parent"
+                   android:background="@color/gray1"
+                   android:layout_marginTop="7dp"></View>
+
+              </TableLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

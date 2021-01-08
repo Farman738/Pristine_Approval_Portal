@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pristine_approval_portal.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_IndentHeader"
+        android:name="com.example.pristine_approval_portal.ui.all_cardview_fragment.indent.IndentHeaderFragment"
+        android:label="@string/menu_indentheader"
+        tools:layout="@layout/fragment_indent_header" />
+
+    <fragment
+        android:id="@+id/nav_purchase_receipt"
+        android:name="com.example.pristine_approval_portal.ui.all_cardview_fragment.purchase_receipt.PurchaseReceiptFragment"
+        android:label="@string/menu_purchase_receipt"
+        tools:layout="@layout/fragment_purchase_receipt" />
+    <fragment
+        android:id="@+id/nav_approval"
+        android:name="com.example.pristine_approval_portal.ui.all_cardview_fragment.purchase_order.approvalforalldata.ApprovalDataFragment"
+        android:label="@string/menu_approval"
+        tools:layout="@layout/fragment_approval_data" />
+    <fragment
+        android:id="@+id/nav_PurchaseOrderHeader_dashboard"
+        android:name="com.example.pristine_approval_portal.ui.all_cardview_fragment.purchase_order.PurchaseOrderHeaderFragment"
+        android:label="@string/menu_purchaseOrderHeader_dashboard"
+        tools:layout="@layout/fragment_purchase_order_header" />
+
+
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.pristine_approval_portal.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.pristine_approval_portal.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

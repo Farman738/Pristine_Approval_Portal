@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background = "@drawable/selector_list_item">
+
+    <TextView
+        android:id="@+id/expandedListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="13sp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/product_sans_regular"></TextView>
+
+
+</LinearLayout>

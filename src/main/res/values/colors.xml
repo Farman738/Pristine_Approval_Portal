@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7F2AAD</color>
+    <color name="colorbegani">#A45CC8</color>
+    <color name="colorroundchild">#92CC8DEC</color>
+<!--    ee008e-->
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#20994B</color>
+    <color name="whiteCardColor">#fff</color>
+    <color name="orange">#FFA41C</color>
+    <string name="loginColor">#1b307f</string>
+    <color name="lightblue">#170040FF</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#ee008e</color>
+    <color name="primaryTextColor2">#A8EE008E</color>
+    <color name="primaryTextColor1">#4BEE008E</color>
+    <color name="white">#FFFF</color>
+    <color name="golden">#FFD700</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!--colors for modern ui-->
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="black">#000</color>
+    <color name="chip_border">#52009D48</color>
+    <color name="chip_ripple">#2F009D48</color>
+
+    <!--    color gray-->
+    <color name="gray1">#DADADA</color>
+    <color name="gray4">#85E3E2E2</color>
+    <color name="gray2">#DADADA</color>
+    <color name="gray3">#DADADA</color>
+
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+</resources>

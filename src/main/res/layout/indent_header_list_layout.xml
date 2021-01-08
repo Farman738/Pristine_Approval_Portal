@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@drawable/cardview_background">
+                    <TableRow >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Doc No.:"
+                            android:fontFamily="@font/product_sans_bold"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/headertextsize"></TextView>
+                        <TextView
+                            android:id="@+id/tv_doc_num_indent_header"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text=":"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textColor="@color/profileEditTextColor"
+                            android:textSize="@dimen/minnormaltextsize"></TextView>
+
+                        <TextView
+                            android:id="@+id/tv_vendor_num_header"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=":"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textColor="@color/profileEditTextColor"
+                            android:textSize="@dimen/minnormaltextsize"></TextView>
+
+
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Status:"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/normaltextsize"></TextView>
+                        <TextView
+                            android:id="@+id/tv_status_header"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text=":"
+                            android:fontFamily="@font/product_sans_bold"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/minnormaltextsize"></TextView>
+
+                        <ImageView
+                            android:id="@+id/img_arrrow_forward_header"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_pink_24dp"></ImageView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginRight="5dp"
+                        android:gravity="right">
+
+                        <TextView
+                            android:id="@+id/tv_date_header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:fontFamily="@font/product_sans_bold"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/minnormaltextsize"></TextView>
+
+
+
+                    </TableRow>
+
+
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:background="@color/gray1"
+                        android:layout_marginTop="7dp"></View>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

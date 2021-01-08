@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_bk_image"
+    tools:context=".ui.all_cardview_fragment.purchase_order.PurchaseOrderHeaderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Order Header"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/product_sans_bold"></TextView>
+
+       <com.google.android.material.card.MaterialCardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:elevation="2dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginRight="5dp"
+           android:background="@color/white">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <TableLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TableRow android:layout_marginTop="3dp"
+                       android:layout_marginLeft="2dp"
+                       android:layout_marginRight="2dp">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Doc Type:"
+                           android:paddingLeft="3dp"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_doc_type_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Vendor No.:"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_vendor_num_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+
+
+                   </TableRow>
+                   <TableRow android:layout_marginTop="3dp"
+                       android:layout_marginLeft="2dp"
+                       android:layout_marginRight="2dp">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Vendor Name:"
+                           android:paddingLeft="3dp"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_vendor_name_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="City:"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_city_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+
+
+                   </TableRow>
+                   <TableRow android:layout_marginTop="3dp"
+                       android:layout_marginLeft="2dp"
+                       android:layout_marginRight="2dp">
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Location:"
+                           android:paddingLeft="3dp"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_location_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Contact:"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_contact_num_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+
+
+                   </TableRow>
+                   <TableRow android:layout_marginTop="3dp"
+                       android:layout_marginLeft="2dp"
+                       android:layout_marginRight="2dp"
+                       >
+
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Buy Address:"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:paddingLeft="3dp"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_buy_from_address_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="2.8"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+                   </TableRow>
+                   <TableRow android:layout_marginTop="3dp"
+                       android:layout_marginLeft="2dp"
+                       android:layout_marginRight="2dp"
+                       android:layout_marginBottom="3dp">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:text="Ship To Address:"
+                           android:textSize="@dimen/normaltextsize"
+                           android:textColor="@color/black"
+                           android:paddingLeft="3dp"
+                           android:fontFamily="@font/product_sans_bold"></TextView>
+
+                       <TextView
+                           android:id="@+id/tv_ship_to_address_for_po_header"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="2.7"
+                           android:text=""
+                           android:textSize="@dimen/minnormaltextsize"
+                           android:textColor="@color/profileEditTextColor"
+                           android:fontFamily="@font/product_sans_regular"></TextView>
+
+
+
+                   </TableRow>
+
+               </TableLayout>
+
+
+
+
+           </LinearLayout>
+
+
+
+       </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Order Line"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/product_sans_bold"></TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+        <ListView
+            android:id="@+id/listview_purchase_order_header_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

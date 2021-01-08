@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/nav_header_height"
+        android:layout_width="match_parent">
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:childDivider="#fff"
+            android:choiceMode="singleChoice"
+            android:divider="@color/white"
+            android:dividerHeight="0.01dp"
+            android:groupIndicator="@null"
+            android:nestedScrollingEnabled="true"
+            android:listSelector="@drawable/selector_list_item" />
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dip"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="bottom|center"-->
+<!--            android:layout_marginBottom="10dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_log_out"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="80dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Log Out"-->
+<!--                android:fontFamily="@font/product_sans_regular"-->
+<!--                android:typeface="normal"-->
+<!--                android:gravity="bottom"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textAllCaps="false"></Button>-->
+
+
+
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
